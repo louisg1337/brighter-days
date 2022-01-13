@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "motivationapp",
+    "slug": "motivationapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "splash": {
+      "image": "./assets/appIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#428EEF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.louisgrassi.brighterdays"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "notification": {
+      "icon": "./assets/appIcon.png"
+    },
+    "android": {
+      "package": "com.louisgrassi.brighterdays"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}

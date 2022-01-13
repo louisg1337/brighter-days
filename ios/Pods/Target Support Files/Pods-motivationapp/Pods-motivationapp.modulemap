@@ -1,0 +1,6 @@
+module Pods_motivationapp {
+  umbrella header "Pods-motivationapp-umbrella.h"
+
+  export *
+  module * { export * }
+}
